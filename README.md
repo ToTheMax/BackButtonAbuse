@@ -1,6 +1,7 @@
 # BackButtonAbuse
 
-This is a Proof of Concept on how the browser backbutton can be abused to mislead people
+This is a Proof of Concept on how the browser backbutton can be abused to mislead a user
+The demo can be seen [here](https://tothemax.github.io/BackButtonAbuse/home.html)
 
 ## Resources
 
