@@ -10,11 +10,11 @@ This is a Proof of Concept on how the browser back button can be abused to misle
 
 ## Fixes
 
-Only Chrome [fixed this](https://groups.google.com/a/chromium.org/g/blink-dev/c/T8d4_BRb2xQ/m/WSdOiOFcBAAJ) by requiring the user to first do a user interaction (i.e. a mouseclick). Therefore this script checks whether the page was accessed through a chrome browser and then creates a fake cookie popup to make the user click.
+The trick works for most browsers, only Chrome [fixed this](https://groups.google.com/a/chromium.org/g/blink-dev/c/T8d4_BRb2xQ/m/WSdOiOFcBAAJ) by requiring the user to first do a user interaction (i.e. a mouseclick). Therefore this script checks whether the page was accessed through a Chrome browser and then creates a fake cookie popup to make the user click.
 
 ## Try it yourself
 
-Visit the demo here [here](https://tothemax.github.io/BackButtonAbuse/home.html) and try to click the back button
+Visit the demo here [here](https://tothemax.github.io/BackButtonAbuse/page.html) and try to click the back button
 
 ## Resources
 
