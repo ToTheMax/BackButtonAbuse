@@ -15,5 +15,10 @@
 </body>
 
 <script>
-  console.log(window.location.search.substr(1));
+  urlParams = window.location.search.substr(1);
+  if (urlParams != "") {
+    console.log(window.location.search.substr(1));
+    history.pushState({}, null, "home.html");
+    //window.location.href = "home-evil.html";
+  }
 </script>
