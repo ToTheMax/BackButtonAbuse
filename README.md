@@ -14,7 +14,7 @@ The trick works for most browsers, only Chrome [fixed this](https://groups.googl
 
 ## Try it yourself
 
-Visit the demo here [here](https://tothemax.github.io/BackButtonAbuse/page.html) and try to click the back button
+Visit the demo here 👉 [here](https://tothemax.github.io/BackButtonAbuse/page.html) 👈 and try to click the back button
 
 ## Resources
 
