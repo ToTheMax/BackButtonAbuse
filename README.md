@@ -14,7 +14,7 @@ Only Chrome [fixed this](https://groups.google.com/a/chromium.org/g/blink-dev/c/
 
 ## Try it yourself
 
-Visit the demo here [here](https://tothemax.github.io/BackButtonAbuse/home.html) and try to click the back button
+Visit the demo here [here](https://tothemax.github.io/BackButtonAbuse/page.html) and try to click the back button
 
 ## Resources
 
