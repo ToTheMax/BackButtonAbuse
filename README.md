@@ -11,6 +11,7 @@ This is a Proof of Concept on how the browser back button can be abused to misle
 ## Fixes
 
 The trick works for most browsers, only Chrome [fixed this](https://groups.google.com/a/chromium.org/g/blink-dev/c/T8d4_BRb2xQ/m/WSdOiOFcBAAJ) by requiring the user to first do a user interaction (i.e. a mouseclick). Therefore this script checks whether the page was accessed through a Chrome browser and then creates a fake cookie popup to make the user click.
+**UPDATE: The trick works again on Chrome (except for the Android app)**
 
 ## Try it yourself
 
